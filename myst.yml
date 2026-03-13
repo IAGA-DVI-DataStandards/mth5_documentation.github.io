@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: MTH5: A container for Magnetotelluric Data
+  title: MTH5 A container for Magnetotelluric Data
   description: Documentation and working examples for building and working with MTH5 files.
   keywords: [geophysics, magnetotellurics, HDF5]
   authors: MTH5 Development Team
