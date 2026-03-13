@@ -6,7 +6,7 @@ project:
   keywords: [geophysics, magnetotellurics, HDF5]
   authors: MTH5 Development Team
   license: CC BY 4.0
-  thumbnail: ./images/mth5_logo.png
+  thumbnail: ./docs/images/mth5_logo.png
   github: https://github.com/IAGA-DVI-DataStandards/mth5_documentation.github.io
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
@@ -32,16 +32,16 @@ project:
         - file: ./docs/notebooks/mth5_in_parallel_one_file_per_station.ipynb
       - title: Single Writer Multiple Reader (SWMR)
         children:
-        - file ./docs/general/SWMR_GUIDE.md
-        - file ./docs/general/SWMR_EXAMPLES_BASIC.md
-        - file ./docs/general/SWMR_EXAMPLES_CONCURRENT.md
+        - file: ./docs/general/SWMR_GUIDE.md
+        - file: ./docs/general/SWMR_EXAMPLES_BASIC.md
+        - file: ./docs/general/SWMR_EXAMPLES_CONCURRENT.md
       - title: Validation
         children:
-        - file ./docs/general/VALIDATOR_README.md
-        - file ./docs/general/VALIDATOR_QUICKSTART.md
+        - file: ./docs/general/VALIDATOR_README.md
+        - file: ./docs/general/VALIDATOR_QUICKSTART.md
   
 site:
   template: book-theme
   options:
-    logo: ./images/mth5_logo.png
+    logo: ./docs/images/mth5_logo.png
 
