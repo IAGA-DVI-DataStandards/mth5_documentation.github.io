@@ -16,11 +16,11 @@ project:
       children:
       - title: Time Series
         children:
-        - file: ./docs/general/channel_ts_example.ipynb
-        - file: ./docs/general/run_ts_example.ipynb
+        - file: ./docs/notebooks/channel_ts_example.ipynb
+        - file: ./docs/notebooks/run_ts_example.ipynb
       - title: Filters
         children:
-        - file: ./docs/general/filters_example.ipynb
+        - file: ./docs/notebooks/filters_example.ipynb
         - file: ./docs/notebooks/remove_instrument_response_example.ipynb
       - title: Transfer Functions
         children:
