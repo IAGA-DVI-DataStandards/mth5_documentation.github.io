@@ -12,6 +12,22 @@ project:
   toc:
     - file: README.md
     - file: ./docs/general/mth5_format.ipynb
+    - title: Basic Data 
+      children:
+      - title: Time Series
+        children:
+        - file: ./docs/general/channel_ts_example.ipynb
+        - file: ./docs/general/run_ts_example.ipynb
+      - title: Filters
+        children:
+        - file: ./docs/general/filters_example.ipynb
+        - file: ./docs/notebooks/remove_instrument_response_example.ipynb
+      - title: Transfer Functions
+        children:
+        - file: ./docs/notebooks/transfer_function_example.ipynb
+      - title: Reports
+        children:
+        - file: ./docs/notebooks/add_report.ipynb
     - title: Examples and How-to's
       children: 
       - title: Make MTH5
@@ -39,6 +55,10 @@ project:
         children:
         - file: ./docs/general/VALIDATOR_README.md
         - file: ./docs/general/VALIDATOR_QUICKSTART.md
+      - title: Archiving and Sharing
+        children:
+        - file: ./docs/notebooks/convert_to_ms_and_stationxml.ipynb
+
   
 site:
   template: book-theme
