@@ -5,9 +5,9 @@ project:
   description: Documentation and working examples for building and working with MTH5 files.
   keywords: [geophysics, magnetotellurics, HDF5]
   authors: MTH5 Development Team
-  license: CC BY 4.0
+  license: CC-BY-4.0
   thumbnail: ./docs/images/mth5_logo.png
-  github: https://github.com/IAGA-DVI-DataStandards/mth5_documentation.github.io
+  github: https://IAGA-DVI-DataStandards.github.io/mth5_documentation
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
     - file: README.md
