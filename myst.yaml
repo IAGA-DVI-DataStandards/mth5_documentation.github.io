@@ -1,16 +1,15 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # id: ad226c36-a7ba-4640-bff7-04498de8fd2d # need to create a new unique id.
   title: MTH5: A container for Magnetotelluric Data
   description: Documentation and working examples for building and working with MTH5 files.
   keywords: [geophysics, magnetotellurics, HDF5]
   authors: MTH5 Development Team
   license: CC BY 4.0
   thumbnail: ./images/mth5_logo.png
-  github: https://github.com/IAGA-DVI-DataStandards/mth5_documentation/sage-geophysics.github.io
+  github: https://github.com/IAGA-DVI-DataStandards/mth5_documentation.github.io
   # To autogenerate a Table of Contents, run "myst init --write-toc"
-  toc:`
+  toc:
     - file: README.md
     - file: ./docs/general/mth5_format.ipynb
     - title: Examples and How-to's
